@@ -3,7 +3,7 @@
 import rospy
 import numpy as np
 from math import sqrt
-from algorithms.neighbors import find_neighbors
+#from algorithms.neighbors import find_neighbors
 
 def create_grid(start_index, goal_index, width):
     start_x = start_index % width

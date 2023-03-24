@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 
+import time
 import rospy
 from pp_msgs.srv import PathPlanningPlugin, PathPlanningPluginResponse
 from geometry_msgs.msg import Twist
@@ -28,7 +29,11 @@ def make_plan(req):
   goal_index = req.goal
   
   #deploying the contract
-  contract=co.ContractObject(3,10,10,30000,0.03)
+  goal_x = goal_index % width
+  goal_y = int(goal_index / width)
+  deadline=round(time.time()*1000)
+  print (goal_x,goal_y,deadline)
+  contract=co.ContractObject(3,goal_x,goal_y,deadline,0.03)
   #accepting -- fortesting
   contract.accept(4)
 
@@ -63,7 +68,7 @@ def make_plan(req):
   resp = PathPlanningPluginResponse()
   resp.plan = path
   
-  #for testing -- settling the payment this should call after completion
+  #for testing -- settling the payment this should call after completion # need to adjudicate the position
   contract.realeaseNpay()
 
   return resp
