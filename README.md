@@ -7,12 +7,12 @@ More agents will be added in the next version!
 
 # Major requirements
 
-Ubuntu 20.04.3 LTS, ROS Noetic, Gazebo
+Ubuntu 20.04.3 LTS, ROS Noetic, Gazebo, Ganache
 
 
 # For Smart Contracts
 
-Start a new work space
+Start a new work space in Ganache
 
 
 # Other requirements
