@@ -1,18 +1,18 @@
-##BaseVersion
+# BaseVersion
 
 Has only two agents contract owner and the robot (charger and the worker) Not much different from the google map project
 Adresses are not coupled just a demonstration to understand the work flow
 Once the goal point is given contract will be deployed and acccpted straight away(example)
 More agents will be added in the next version!
 
-#Major requirements
+# Major requirements
 
 Ubuntu 20.04.3 LTS
 ROS Noetic
 Gazebo
 
 
-#For Smart Contracts
+# For Smart Contracts
 
 Start a new work space
 
