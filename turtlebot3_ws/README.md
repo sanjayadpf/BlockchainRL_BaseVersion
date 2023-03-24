@@ -22,7 +22,7 @@ roslaunch global_path_planning turtlebot3_ros_world_RL.launch
 
 roslaunch global_path_planning turtlebot3_ros_real_world.launch
 
-#terminal 03 real time SLAM
+# terminal 03 real time SLAM
 
 
 source devel/setup.bash
