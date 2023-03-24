@@ -1,0 +1,2 @@
+global_path_planning:pp_msgs:ros_world:srv_client_plugin:turtlebot3:turtlebot3_bringup:turtlebot3_description:turtlebot3_slam
+-DCATKIN_DEVEL_PREFIX=/home/sanjaya/Blockchain_RL/turtlebot3_ws/devel -DCMAKE_INSTALL_PREFIX=/home/sanjaya/Blockchain_RL/turtlebot3_ws/install -G Unix Makefiles
