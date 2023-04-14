@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sanjaya/Robotics-Playground/turtlebot3_ws/src
+CMAKE_SOURCE_DIR = /home/sanjaya/Blockchain_RL/turtlebot3_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sanjaya/Robotics-Playground/turtlebot3_ws/build
+CMAKE_BINARY_DIR = /home/sanjaya/Blockchain_RL/turtlebot3_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
