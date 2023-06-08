@@ -1,3 +1,19 @@
+Clone the project
+
+git clone https://github.com/sanjayadpf/BlockchainRL_BaseVersion
+
+username: sanjayadpf
+pw: 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
+
+
+Go inside the src directory of turtlebot3_ws and run the following command
+
+git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs.git
+
+
+After that go back to turtlebot3_ws and run the follwoing
+
+catkin_make
 
 Open seperate terminals for each functionality
 
